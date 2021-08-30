@@ -4,4 +4,4 @@ services:
     build: .docker/ap
 
   dev:
-    image: ghcr.io/xjb/docker_actions_example:main
+    build: .docker/dev
