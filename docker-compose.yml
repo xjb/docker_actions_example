@@ -1,7 +1,9 @@
 version: "3.9"
 services:
   ap:
-    build: .docker/ap
+    # build: .docker/ap
+    image: ghcr.io/xjb/docker_actions_example:main
 
   dev:
-    build: .docker/dev
+    # build: .docker/dev
+    image: ghcr.io/xjb/docker_actions_example:dev
